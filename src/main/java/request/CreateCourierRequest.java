@@ -1,3 +1,5 @@
+package request;
+
 public class CreateCourierRequest {
     private String login;
     private String password;

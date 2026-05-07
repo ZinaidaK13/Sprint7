@@ -1,3 +1,5 @@
+package request;
+
 public class LoginCourierRequest {
     private String login;
     private String password;

@@ -1,3 +1,5 @@
+package request;
+
 import java.util.List;
 
 public class OrderRequest {
@@ -96,5 +98,10 @@ public class OrderRequest {
 
     public void setColor(List<String> color) {
         this.color = color;
+    }
+
+    @Override
+    public String toString() {
+        return color.toString(); // Будет выводить: [black], [grey], [] и т.д.
     }
 }
